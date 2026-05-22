@@ -1,0 +1,10 @@
+; Engine configuration file.
+; It's stored in a binary format, so this is a human-readable dump.
+[application]
+config/name="DemoTestProject"
+config/description="一个测试用的 Godot 项目"
+run/main_scene=""
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+environment/background_mode=0
