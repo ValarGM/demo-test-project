@@ -1,10 +1,19 @@
 ; Engine configuration file.
-; It's stored in a binary format, so this is a human-readable dump.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
 [application]
+
 config/name="DemoTestProject"
-config/description="一个测试用的 Godot 项目"
-run/main_scene=""
+config/version_string="0.1.0"
+config/description="A demo test project created via Hermes Agent."
 
 [rendering]
-renderer/rendering_method="gl_compatibility"
-environment/background_mode=0
+
+renderer/rendering_method="forward_plus"

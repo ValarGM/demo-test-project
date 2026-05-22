@@ -1,11 +1,21 @@
-# Godot 临时文件
+# Godot 4+ specific ignores
 .godot/
 *.import
 *.translation
 
-# OS 系统文件
+# Godot-specific files
+export_presets.cfg
+
+# System/IDE files
 .DS_Store
 Thumbs.db
-
-# IDE
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
 *.code-workspace
+
+# Build outputs
+*.pck
+*.zip
