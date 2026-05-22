@@ -1,0 +1,11 @@
+# Godot 临时文件
+.godot/
+*.import
+*.translation
+
+# OS 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+*.code-workspace
