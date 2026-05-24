@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://5p2avsm0ghm7"]
+
+[ext_resource type="FontFile" uid="uid://cp6ipd48b2jb7" path="res://Lyusung-210618.ttf" id="1_y8cmi"]
+
+[node name="文本2" type="RichTextLabel" unique_id=1654360470]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -480.0
+offset_top = -360.0
+offset_right = 440.0
+offset_bottom = -292.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("1_y8cmi")
+theme_override_font_sizes/normal_font_size = 29
+bbcode_enabled = true
+text = "⬛⬛会以一种仿佛无害而亲切的方式接触⬛⬛⬛
+然而其⬛⬛性不可估量。"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+horizontal_alignment = 1
+vertical_alignment = 1

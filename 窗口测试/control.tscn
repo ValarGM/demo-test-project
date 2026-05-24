@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://dou0wxcnwl3v1"]
+
+[ext_resource type="Script" uid="uid://d3l67qlaq7333" path="res://control.gd" id="1_0fbet"]
+[ext_resource type="FontFile" uid="uid://cp6ipd48b2jb7" path="res://Lyusung-210618.ttf" id="2_62e2m"]
+
+[node name="测试场景" type="Control" unique_id=964344029]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0fbet")
+
+[node name="背景" type="ColorRect" parent="." unique_id=475605148]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 960.0
+offset_bottom = 360.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.23137255, 0, 0, 1)
+
+[node name="文本" type="RichTextLabel" parent="背景" unique_id=1436293654]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -701.5
+offset_top = -148.5
+offset_right = 701.5
+offset_bottom = 148.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("2_62e2m")
+theme_override_font_sizes/normal_font_size = 186
+bbcode_enabled = true
+text = "[shake = 10]知识诅咒"
+fit_content = true
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1933157870]
+position = Vector2(1170, 684)
